@@ -7,11 +7,10 @@ A ride-hailing app returns a driver's completed trips for the day. It loops thro
 
 ## What It Does
 
-- Accepts daily check-in data (sleep hours, water glasses, steps)
-- Predicts whether the 10,000-step goal will be hit
-- Returns a confidence score and a direct coaching message
-- Exports a weekly summary report as JSON
-
+- Accepts daily data of a taxi operator (Name of Driver, Date, Trips)
+- Calculates total number of trips and money made per day
+- Applies logic to check for the Highest paying route
+- Returns a short summary indicating number of trips, total money earned, and the highest trip route 
 ## Setup
 
 ```bash
@@ -29,9 +28,9 @@ print(f"Highest trip: {highest_trip['route']} | KES {highest_trip['fare_kes']}")
 ## Sample Output
 
 ```
-Total trips: 5
-Total earned: KES 3420
-Highest trip: South B to Karen | KES 980
+Total trips: 10
+Total earned: KES 14750
+Highest trip: Airport to CBD | KES 2100
 ```
 
 ## Stack
