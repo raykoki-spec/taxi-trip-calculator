@@ -2,7 +2,7 @@
 
 # Taxi Trip Calculator
 
-A ride-hailing app returns a driver's completed trips for the day. It loops through the trips, counts them, adds up the fares, and finds the highest-paying trip. 
+A Python-based calculator that returns a driver's completed trips for the day. It loops through the trips, counts them, adds up the fares, and finds the highest-paying trip. 
 
 
 ## What It Does
